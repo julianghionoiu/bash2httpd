@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-HELLO_FILE="${SCRIPT_DIR}/public-html/hello.html"
+HELLO_FILE="${SCRIPT_DIR}/public-html/index.html"
 
  if [ -z "$1" ]; then echo "No person name provided"; exit 1; fi
 PERSON_NAME=$1
